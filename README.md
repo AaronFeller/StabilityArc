@@ -69,7 +69,7 @@ rows = predictor.predict("ACDEFGHIKLMNPQRSTVWY")
 print(rows[0])
 ```
 
-Reuse the predictor for additional sequences to keep ESMC-600M and the decoder loaded. The [Colab notebook](notebooks/stabilityarc_colab.ipynb) provides the same workflow. The [Gradio Space template](space/README.md) can be deployed in a separate GPU Space; it is not a hosted service in this repository. Single-substitution inference does not require contact maps. For simultaneous substitutions, see the contact-aware scoring path in `scripts/evaluate_t2837.py`.
+Reuse the predictor for additional sequences to keep ESMC-600M and the decoder loaded. Run the [hosted Colab notebook](https://colab.research.google.com/drive/1zGR76Q6yDMjYw0RwvBKIg4UTT970aFiZ?usp=sharing) or view its [source](notebooks/stabilityarc_colab.ipynb). The [Gradio Space template](space/README.md) can be deployed in a separate GPU Space; it is not a hosted service in this repository. Single-substitution inference does not require contact maps. For simultaneous substitutions, see the contact-aware scoring path in `scripts/evaluate_t2837.py`.
 
 ## Evaluation
 
