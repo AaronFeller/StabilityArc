@@ -1,0 +1,5 @@
+gradio>=5,<7
+huggingface_hub>=1.0
+pandas>=2.2
+torch>=2.7,<2.8
+esm>=3.1.0

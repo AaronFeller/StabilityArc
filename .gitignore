@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+cache/
+output/
+manuscript/
+data/T2837.csv
+results/*.csv
+results/**/*.csv
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf

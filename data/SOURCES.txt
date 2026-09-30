@@ -1,0 +1,21 @@
+External data sources
+=====================
+
+ProteinGym DMS substitution assays
+  Project and download instructions (see Resources):
+  https://github.com/OATML-Markslab/ProteinGym#resources
+
+  Example archive for ProteinGym v1.3:
+  https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip
+
+  ProteinGym publishes versioned releases. Check its Resources section for
+  the current version, assay reference files, and upstream usage terms.
+  StabilityArc's all-66 checkpoint used a selected set of stability assays;
+  its training protein IDs are listed in checkpoints/release_manifest.json.
+  Downloading the complete archive does not by itself reproduce the packed
+  training data or the 66 held-out evaluation models, which are not bundled.
+
+T2837 external evaluation
+  The local research archive's T2837 input is data/T2837.csv. This input
+  and third-party predictions are not redistributed in the public repository.
+  See the manuscript for the dataset description and original references.

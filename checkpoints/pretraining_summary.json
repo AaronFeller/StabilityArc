@@ -1,0 +1,251 @@
+{
+  "checkpoint": "checkpoints/stabilityarc.pt",
+  "training_proteins": [
+    "A4_HUMAN",
+    "AMFR_HUMAN",
+    "ARGR_ECOLI",
+    "BBC1_YEAST",
+    "BCHB_CHLTE",
+    "CATR_CHLRE",
+    "CBPA2_HUMAN",
+    "CBX4_HUMAN",
+    "CSN4_MOUSE",
+    "CUE1_YEAST",
+    "DN7A_SACS2",
+    "DNJA1_HUMAN",
+    "DOCK1_MOUSE",
+    "EPHB2_HUMAN",
+    "ESTA_BACSU",
+    "FECA_ECOLI",
+    "FKBP3_HUMAN",
+    "HCP_LAMBD",
+    "HECD1_HUMAN",
+    "ILF3_HUMAN",
+    "ISDH_STAAW",
+    "MAFG_MOUSE",
+    "MBD11_ARATH",
+    "MYO3_YEAST",
+    "NKX31_HUMAN",
+    "NUSA_ECOLI",
+    "NUSG_MYCTU",
+    "OBSCN_HUMAN",
+    "ODP2_GEOSE",
+    "OTU7A_HUMAN",
+    "PIN1_HUMAN",
+    "PITX2_HUMAN",
+    "PKN1_HUMAN",
+    "POLG_PESV",
+    "PR40A_HUMAN",
+    "PSAE_PICP2",
+    "RAD_ANTMA",
+    "RBP1_HUMAN",
+    "RCD1_ARATH",
+    "RCRO_LAMBD",
+    "RD23A_HUMAN",
+    "RFAH_ECOLI",
+    "RL20_AQUAE",
+    "RPC1_BP434",
+    "RS15_GEOSE",
+    "SAV1_MOUSE",
+    "SBI_STAAM",
+    "SCIN_STAAR",
+    "SDA_BACSU",
+    "SOX30_HUMAN",
+    "SPA_STAAU",
+    "SPG2_STRSG",
+    "SPTN1_CHICK",
+    "SQSTM_MOUSE",
+    "SR43C_ARATH",
+    "SRBS1_HUMAN",
+    "TCRG1_MOUSE",
+    "THO1_YEAST",
+    "TNKS2_HUMAN",
+    "UBE4B_HUMAN",
+    "UBR5_HUMAN",
+    "VG08_BPP22",
+    "VILI_CHICK",
+    "VRPI_BPT7",
+    "YAIA_ECOLI",
+    "YNZC_BACSU"
+  ],
+  "holdout_proteins": [],
+  "contact_map_source": "Frozen ESMC-600M attention-derived contacts (not bundled)",
+  "max_mutations_per_task": 40000,
+  "max_query_mutations": 40000,
+  "double_mutant_loss_weight": 1.0,
+  "max_double_mutants_per_task": 40000,
+  "add_neutral_synthetic_doubles": false,
+  "synthetic_neutral_double_target": null,
+  "synthetic_neutral_double_selection": null,
+  "double_mutant_training_assays": 51,
+  "measured_double_mutant_training_labels": 65939,
+  "synthetic_neutral_double_mutant_training_labels": 0,
+  "components": {
+    "pair_residual": true,
+    "contact_feature": true
+  },
+  "double_scoring": "WT-relative single-effect sum plus learned symmetric pair residual",
+  "context_encoder": "backbone site representation only",
+  "history": [
+    {
+      "epoch": 1.0,
+      "loss": 2.9759583870569863
+    },
+    {
+      "epoch": 2.0,
+      "loss": 2.826635075337959
+    },
+    {
+      "epoch": 3.0,
+      "loss": 2.6901679797606035
+    },
+    {
+      "epoch": 4.0,
+      "loss": 2.340714597340786
+    },
+    {
+      "epoch": 5.0,
+      "loss": 2.1412869746034797
+    },
+    {
+      "epoch": 6.0,
+      "loss": 1.9985006966374137
+    },
+    {
+      "epoch": 7.0,
+      "loss": 1.9124016879182872
+    },
+    {
+      "epoch": 8.0,
+      "loss": 1.8332433890212665
+    },
+    {
+      "epoch": 9.0,
+      "loss": 1.7408246714057345
+    },
+    {
+      "epoch": 10.0,
+      "loss": 1.6705345592715524
+    },
+    {
+      "epoch": 11.0,
+      "loss": 1.651567721005642
+    },
+    {
+      "epoch": 12.0,
+      "loss": 1.5991409944765496
+    },
+    {
+      "epoch": 13.0,
+      "loss": 1.6162412563959758
+    },
+    {
+      "epoch": 14.0,
+      "loss": 1.5724112075386625
+    },
+    {
+      "epoch": 15.0,
+      "loss": 1.5553010720195193
+    },
+    {
+      "epoch": 16.0,
+      "loss": 1.4982305503252782
+    },
+    {
+      "epoch": 17.0,
+      "loss": 1.4876788899754032
+    },
+    {
+      "epoch": 18.0,
+      "loss": 1.49212454801256
+    },
+    {
+      "epoch": 19.0,
+      "loss": 1.4740929594545653
+    },
+    {
+      "epoch": 20.0,
+      "loss": 1.4184416022264597
+    },
+    {
+      "epoch": 21.0,
+      "loss": 1.4149102609265933
+    },
+    {
+      "epoch": 22.0,
+      "loss": 1.3541230035550667
+    },
+    {
+      "epoch": 23.0,
+      "loss": 1.3724245049736716
+    },
+    {
+      "epoch": 24.0,
+      "loss": 1.3240888087135372
+    },
+    {
+      "epoch": 25.0,
+      "loss": 1.3209780007600784
+    },
+    {
+      "epoch": 26.0,
+      "loss": 1.3188364880554604
+    },
+    {
+      "epoch": 27.0,
+      "loss": 1.3211759816516528
+    },
+    {
+      "epoch": 28.0,
+      "loss": 1.3163703978061676
+    },
+    {
+      "epoch": 29.0,
+      "loss": 1.305978740255038
+    },
+    {
+      "epoch": 30.0,
+      "loss": 1.3016836950273225
+    },
+    {
+      "epoch": 31.0,
+      "loss": 1.2548078578529935
+    },
+    {
+      "epoch": 32.0,
+      "loss": 1.2582139345732601
+    },
+    {
+      "epoch": 33.0,
+      "loss": 1.2522306248094097
+    },
+    {
+      "epoch": 34.0,
+      "loss": 1.2427458063219532
+    },
+    {
+      "epoch": 35.0,
+      "loss": 1.2110784523414844
+    },
+    {
+      "epoch": 36.0,
+      "loss": 1.2462775332458091
+    },
+    {
+      "epoch": 37.0,
+      "loss": 1.2104964030511451
+    },
+    {
+      "epoch": 38.0,
+      "loss": 1.227186750281941
+    },
+    {
+      "epoch": 39.0,
+      "loss": 1.1882270091410838
+    },
+    {
+      "epoch": 40.0,
+      "loss": 1.2111242431582827
+    }
+  ]
+}

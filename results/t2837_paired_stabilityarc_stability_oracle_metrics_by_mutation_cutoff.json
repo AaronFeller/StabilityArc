@@ -1,0 +1,138 @@
+{
+  "protocol": "Paired pooled comparison on exact shared raw T2837 PDB-chain mutation keys. A target is retained when its shared mutation count is strictly greater than the named cutoff.",
+  "stability_oracle_input": "results/T2837_stabilityOracle.csv",
+  "classification_threshold": "Positive class: measured ddG >= 1.0; predicted positive: model predicted ddG >= 1.0.",
+  "shared_proteins": 125,
+  "shared_mutations": 2564,
+  "results": {
+    "greater_than_0": {
+      "proteins": 125,
+      "mutations": 2564,
+      "stability_oracle": {
+        "proteins": 125,
+        "mutations": 2564,
+        "accuracy": 0.6528861154446178,
+        "precision": 0.9112050739957717,
+        "recall": 0.33698201720093823,
+        "auc_roc": 0.8213335442633622,
+        "pearson": 0.6180952047320777,
+        "spearman": 0.6422476817376607,
+        "rmse_kcal_per_mol": 1.8021295876456547,
+        "inverse_rmse_per_kcal_per_mol": 0.5548990521299991,
+        "positive_ddG_ge_threshold_count": 1279,
+        "negative_ddG_lt_threshold_count": 1285
+      },
+      "stabilityarc": {
+        "proteins": 125,
+        "mutations": 2564,
+        "accuracy": 0.6922776911076443,
+        "precision": 0.811704834605598,
+        "recall": 0.4988272087568413,
+        "auc_roc": 0.7811751033607847,
+        "pearson": 0.5258011214839529,
+        "spearman": 0.5508850466957994,
+        "rmse_kcal_per_mol": 1.8232712969798233,
+        "inverse_rmse_per_kcal_per_mol": 0.5484647302112748,
+        "positive_ddG_ge_threshold_count": 1279,
+        "negative_ddG_lt_threshold_count": 1285
+      }
+    },
+    "greater_than_10": {
+      "proteins": 40,
+      "mutations": 2310,
+      "stability_oracle": {
+        "proteins": 40,
+        "mutations": 2310,
+        "accuracy": 0.6567099567099567,
+        "precision": 0.9316628701594533,
+        "recall": 0.34897610921501704,
+        "auc_roc": 0.8350543135972935,
+        "pearson": 0.6731934465325579,
+        "spearman": 0.6755197887815907,
+        "rmse_kcal_per_mol": 1.72597121667426,
+        "inverse_rmse_per_kcal_per_mol": 0.5793839377732384,
+        "positive_ddG_ge_threshold_count": 1172,
+        "negative_ddG_lt_threshold_count": 1138
+      },
+      "stabilityarc": {
+        "proteins": 40,
+        "mutations": 2310,
+        "accuracy": 0.6982683982683983,
+        "precision": 0.8275862068965517,
+        "recall": 0.5119453924914675,
+        "auc_roc": 0.7959386265347865,
+        "pearson": 0.5814933984341975,
+        "spearman": 0.5859855470329136,
+        "rmse_kcal_per_mol": 1.7211303856412037,
+        "inverse_rmse_per_kcal_per_mol": 0.5810135062065341,
+        "positive_ddG_ge_threshold_count": 1172,
+        "negative_ddG_lt_threshold_count": 1138
+      }
+    },
+    "greater_than_20": {
+      "proteins": 28,
+      "mutations": 2131,
+      "stability_oracle": {
+        "proteins": 28,
+        "mutations": 2131,
+        "accuracy": 0.661191928671985,
+        "precision": 0.9349397590361446,
+        "recall": 0.358264081255771,
+        "auc_roc": 0.8443387748197331,
+        "pearson": 0.6977910496996358,
+        "spearman": 0.6995429040062684,
+        "rmse_kcal_per_mol": 1.7046303940473957,
+        "inverse_rmse_per_kcal_per_mol": 0.5866374338343494,
+        "positive_ddG_ge_threshold_count": 1083,
+        "negative_ddG_lt_threshold_count": 1048
+      },
+      "stabilityarc": {
+        "proteins": 28,
+        "mutations": 2131,
+        "accuracy": 0.7038948850305021,
+        "precision": 0.8353115727002968,
+        "recall": 0.5198522622345337,
+        "auc_roc": 0.8026835620590247,
+        "pearson": 0.591610921620763,
+        "spearman": 0.5984725431505437,
+        "rmse_kcal_per_mol": 1.7053064976533623,
+        "inverse_rmse_per_kcal_per_mol": 0.5864048494367903,
+        "positive_ddG_ge_threshold_count": 1083,
+        "negative_ddG_lt_threshold_count": 1048
+      }
+    },
+    "greater_than_30": {
+      "proteins": 19,
+      "mutations": 1884,
+      "stability_oracle": {
+        "proteins": 19,
+        "mutations": 1884,
+        "accuracy": 0.6687898089171974,
+        "precision": 0.9378238341968912,
+        "recall": 0.3762993762993763,
+        "auc_roc": 0.8519455130084197,
+        "pearson": 0.7203767989067212,
+        "spearman": 0.7182194911130231,
+        "rmse_kcal_per_mol": 1.6964526940208373,
+        "inverse_rmse_per_kcal_per_mol": 0.5894653022300645,
+        "positive_ddG_ge_threshold_count": 962,
+        "negative_ddG_lt_threshold_count": 922
+      },
+      "stabilityarc": {
+        "proteins": 19,
+        "mutations": 1884,
+        "accuracy": 0.7054140127388535,
+        "precision": 0.8352553542009885,
+        "recall": 0.527027027027027,
+        "auc_roc": 0.8039537117628224,
+        "pearson": 0.605951745306128,
+        "spearman": 0.6061705667919841,
+        "rmse_kcal_per_mol": 1.705590324973144,
+        "inverse_rmse_per_kcal_per_mol": 0.5863072657941736,
+        "positive_ddG_ge_threshold_count": 962,
+        "negative_ddG_lt_threshold_count": 922
+      }
+    }
+  },
+  "stabilityarc_input": "results/t2837_predictions.csv"
+}

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stabilityarc"
+version = "0.1.0"
+description = "Cross-protein transfer for zero-shot stability prediction"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.7,<2.8",
+    "esm>=3.1.0",
+    "scipy>=1.11",
+    "scikit-learn>=1.5",
+]
+
+[tool.setuptools]
+packages = ["stabilityarc"]
